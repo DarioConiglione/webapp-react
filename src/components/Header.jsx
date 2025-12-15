@@ -11,8 +11,8 @@ export default function Header() {
         },
         {
             id: 2,
-            text: 'Reviews',
-            link: '/reviews'
+            text: 'Movies',
+            link: '/movies'
         },
     ]
 
