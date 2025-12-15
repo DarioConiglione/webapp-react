@@ -21,8 +21,6 @@ export default function Header() {
         <>
             <header>
                 <Navbar menu={menu} />
-
-
             </header>
         </>
     )
