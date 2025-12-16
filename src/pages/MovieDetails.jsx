@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react";
 import axios from "axios";
+import StarRating from "../components/StarRating";
 
 export default function MovieDetails() {
 
@@ -38,9 +39,11 @@ export default function MovieDetails() {
                 {
                     movie?.review.map(review =>
                         <div key={review.id} className="card mb-2 p-2">
-                            <h4 className="card-title">{review.name}</h4>
+                            <h5 className="card-title">{review.name}</h5>
                             <p className="card-text">{review.text}</p>
+                            <StarRating rating={review.vote} />
                         </div>
+
                     )
 
                 }
