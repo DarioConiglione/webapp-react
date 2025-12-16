@@ -6,7 +6,7 @@ export default function Navbar({ menu }) {
         <>
             <nav className="navbar navbar-expand-md navbar-light bg-light">
                 <div className="container">
-                    <a className="navbar-brand" href="#">Il sito di film numero 1</a>
+                    <a className="navbar-brand" href="#">Comunity films</a>
                     <button
                         className="navbar-toggler d-lg-none"
                         type="button"
